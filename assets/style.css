@@ -7,12 +7,16 @@
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
-	transition: background 500ms ease;
+    color: darkviolet;
+    Font-family: helvetica;
+}
+
+.cursive {
+    font-family: cursive;
 }
 
 p, li {
-	font-size:  22px;
+	font-size:  18px;
 	line-height: 30px;
 }
 
@@ -33,6 +37,12 @@ ul, ol {
 img {
 	max-width: 100%;
 	height:  auto;
+}
+
+#psyduck {
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
 }
 
 /* uncomment the code below to set the grid */
