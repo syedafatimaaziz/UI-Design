@@ -1,74 +1,49 @@
 * {
-	margin:  0px;
-	padding:  0px;
+	margin:  6px;
+	padding:  4px;
 	box-sizing: border-box;
 }
 
-/* adjusting fonts */
 
-body {
-	background: #3F5EFB;
-background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
-    color: darkviolet;
-    Font-family: helvetica;
+.profile {
+  display: flex;
+  align-items: center; /* aligns text vertically with image */
+  gap: 20px; /* space between image and text */
+  margin-bottom: 10px; /* space below the whole block */
 }
 
-.cursive {
-    font-family: cursive;
+.intro-text h1 {
+  margin: 0;
 }
 
-p, li {
-	font-size:  18px;
-	line-height: 30px;
-}
-
-/* adjusting spacing */
-
-#left-column {
-	padding: 20px;
-}
-
-h1, p {
-	margin-bottom:  20px;
-}
-
-ul, ol {
-	margin-left: 20px;
-}
-
-
-
-img {
-	max-width: 100%;
-	height:  auto;
-}
-
-#psyduck {
-		position: absolute;
-		right: 10px;
-		bottom: 10px;
-}
-
-/* uncomment the code below to set the grid */
-
-/*#grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+.intro-text p {
+  margin: 5px 0 0;
 }
 
 body {
-	overflow: hidden;
+	background: #F2EEE2;
+	color: #194EA0;
+	font-family: monospace;
 }
 
-.scroll {
-	padding:  20px;
-	overflow: scroll;
-	height: 100vh;
+h1 {
+  margin-bottom: 10px;
 }
 
-#left-column {
+h2 {
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
-#right-column {
-	background: #333;
-}*/
+.cdesc {
+  margin-bottom: 30px;
+}
+
+.list-header {
+margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  list-style: none;
+}
+
+
