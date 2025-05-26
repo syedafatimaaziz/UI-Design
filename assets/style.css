@@ -9,7 +9,7 @@
 .profile {
   display: flex;
   align-items: center; /* aligns text vertically with image */
-  gap: 20px; /* space between image and text */
+  gap: 10px; /* space between image and text */
   margin-bottom: 0px; /* space below the whole block */
 }
 
