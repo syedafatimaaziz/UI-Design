@@ -1,5 +1,5 @@
 * {
-	margin:  6px;
+	margin:  2px;
 	padding:  4px;
 	margin-left: 12px;
 	box-sizing: border-box;
@@ -10,7 +10,7 @@
   display: flex;
   align-items: center; /* aligns text vertically with image */
   gap: 20px; /* space between image and text */
-  margin-bottom: 10px; /* space below the whole block */
+  margin-bottom: 0px; /* space below the whole block */
 }
 
 .intro-text h1 {
@@ -19,6 +19,36 @@
 
 .intro-text p {
   margin: 5px 0 0;
+}
+
+.playlist {
+  width: 20%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-family: monospace;
+}
+
+.playlist th,
+.playlist td {
+  border: 1px solid #194EA0;
+  padding: 4px;
+  text-align: center;
+  background-color: #F2EEE2;
+  color: #194EA0;
+}
+
+.playlist th {
+  background-color: #194EA0;
+  color: #F2EEE2;
+}
+
+a {
+  text-decoration: none;
+  color: #194EA0;
+}
+
+a:hover {
+  color: #CA7149; 
 }
 
 body {
@@ -32,7 +62,7 @@ h1 {
 }
 
 section {
-  margin-top: 14px;
+  margin-top: 12px;
 }
 
 .cdesc {
