@@ -20,8 +20,9 @@ h1 {
 	top: 20px;
 	left: 20px;
 	padding: 7px 20px;
-	background: white;
+	background: #F2EEE2;
 	border-radius: 20px;
+	font-family: monospace;
 	font-size: 18px;
 }
 
