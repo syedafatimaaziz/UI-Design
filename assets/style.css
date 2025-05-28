@@ -6,6 +6,40 @@
 }
 
 
+.button {
+  background-color: #194EA0; 
+  color: #F2EEE2;             
+  padding: 12px 14px;        
+  border: none;             
+  border-radius: 8px;        
+}
+
+.button:hover {
+  background-color: #CA7149; 
+}
+
+
+body.dark {
+  background: #1B3050;
+  color: #F2EEE2;
+
+  .playlist th {
+  background-color: #194EA0;
+  color: #F2EEE2;
+  }
+
+  a {
+  text-decoration: none;
+  color: #F2EEE2;
+  }
+
+  a:hover {
+  color: #CA7149; 
+  }
+
+
+}
+
 .profile {
   display: flex;
   align-items: center; /* aligns text vertically with image */
