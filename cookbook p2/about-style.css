@@ -1,0 +1,14 @@
+
+
+.nav-buttons a {
+  margin-top: 30px;
+  margin: 0.25rem 0.25rem;
+  color: #3D1EB1;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+  color: #E63C23;
+  text-underline-position: 1px;
+}

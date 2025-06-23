@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto Mono', monospace;
+      background-color: #FBF7F4;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .veg-container {
+      position: relative;
+      width: 100%;
+      height: 90vh;
+    }
+
+    .veg-button {
+      position: absolute;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .veg-button img {
+      width: 130px;
+      height: auto;
+      transition: transform 0.3s;
+    }
+
+    .veg-button:hover img {
+      transform: scale(1.1);
+    }
+
+    .veg-button .label {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+      border-radius: 6px;
+      margin-top: 0.5rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .veg-button:hover .label {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<div class="veg-button" style="top: 15%; left: 20%;">
+  <a href="recipe1.html">
+    <img src="carrot.png" alt="Carrot" style="transform: rotate(0deg); width: 160px;">
+    <span class="label">Grandma's Chicken Curry</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 35%; left: 60%;">
+  <a href="recipe1.html">
+    <img src="bhindi.svg" alt="Bhindi" style="transform: rotate(0deg); width: 160px;">
+    <span class="label"> Ammi's Spicy Okra </span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 65%; left: 30%;">
+  <a href="recipe3.html">
+    <img src="squash.svg" alt="Squash" style="transform: rotate(0deg); width: 160px;">
+    <span class="label">Uncle's Spicy Squash</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 10%; left: 75%;">
+  <a href="recipe4.html">
+    <img src="garlic.svg" alt="Garlic" style="transform: rotate(0deg); width: 160px;">
+    <span class="label">Garlic Roti Remix</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 75%; left: 70%;">
+  <a href="recipe5.html">
+    <img src="cherry-tom.svg" alt="Cherry Tomato" style="transform: rotate(0deg); width: 160px;">
+    <span class="label">Nani's Tomato Chutney</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 50%; left: 10%;">
+  <a href="recipe6.html">
+    <img src="mint.svg" alt="Mint" style="transform: rotate(0deg); width: 160px;">
+    <span class="label">Mint Raita</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 25%; left: 40%;">
+  <a href="recipe7.html">
+    <img src="beet.png" alt="Beet" style="transform: rotate(0deg); width: 200px;">
+    <span class="label">Beetroot Bhujia</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 60%; left: 80%;">
+  <a href="recipe8.html">
+    <img src="tom.svg" alt="Tomato" style="transform: rotate(0deg); width: 160px;">
+    <span class="label">Tamatar Shorba</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 85%; left: 50%;">
+  <a href="recipe9.html">
+    <img src="wheat.png" alt="Wheat" style="transform: rotate(0deg); width: 240px;">
+    <span class="label">Wheat Halwa</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 40%; left: 85%;">
+  <a href="recipe10.html">
+    <img src="blueberry.svg" alt="Blueberry" style="transform: rotate(0deg); width: 160px;">
+    <span class="label">Blueberry Kheer</span>
+  </a>
+</div>
+
+<div class="veg-button" style="top: 5%; left: 45%;">
+  <a href="recipe11.html">
+    <img src="pom.svg" alt="Pomegranate" style="transform: rotate(0deg); width: 160px;">
+    <span class="label">Pomegranate Raita</span>
+  </a>
+</div>
+
+  </div>
+</body>
+</html>
